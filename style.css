@@ -1,3 +1,4 @@
+/* Ogólne ustawienia */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
@@ -6,10 +7,11 @@ body {
   color: #333;
 }
 
+/* Nagłówek ze zdjęciem i tekstem */
 header.header-flex {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   background: linear-gradient(90deg, #a8c0ff, #c1b5f6);
   padding: 2rem 1rem;
 }
@@ -26,6 +28,10 @@ header.header-flex {
   text-align: left;
 }
 
+nav {
+  margin-top: 1rem;
+}
+
 nav a {
   margin: 0 10px;
   color: white;
@@ -33,6 +39,11 @@ nav a {
   font-weight: bold;
 }
 
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Sekcje */
 section {
   max-width: 800px;
   margin: 2rem auto;
@@ -41,6 +52,8 @@ section {
 
 h2 {
   color: #6a5acd;
+  font-size: 28px;
+  margin-bottom: 1rem;
 }
 
 .project-card {
@@ -51,16 +64,30 @@ h2 {
   margin-bottom: 1.5rem;
 }
 
+.project-card a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #6a5acd;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
+}
+
 ul {
   list-style: disc inside;
   padding-left: 1rem;
 }
 
+/* Formularz kontaktowy */
 form {
   background: #fff;
   padding: 2rem;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 2rem;
 }
 
 form input, form textarea {
@@ -70,6 +97,7 @@ form input, form textarea {
   margin-bottom: 20px;
   border: 1px solid #ccc;
   border-radius: 8px;
+  font-size: 16px;
 }
 
 form button {
@@ -79,6 +107,7 @@ form button {
   border: none;
   border-radius: 25px;
   font-weight: bold;
+  font-size: 16px;
   cursor: pointer;
   width: 100%;
 }
@@ -87,10 +116,16 @@ form button:hover {
   background-color: #5a4bcf;
 }
 
+/* Stopka */
 footer {
   text-align: center;
   padding: 2rem 1rem;
   background-color: #d1d8f0;
+  margin-top: 2rem;
+}
+
+footer p {
+  margin: 0.5rem 0;
 }
 
 footer a {
