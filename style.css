@@ -5,46 +5,6 @@ body {
   padding: 0;
   background-color: #f5f7fa;
   color: #333;
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f5f7fa;
-  color: #333;
-  margin: 0;
-  padding: 0;
-}
-header.header-flex {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: linear-gradient(90deg, #000000, #1e1e1e);
-  padding: 2rem 1rem;
-  flex-wrap: wrap;
-}
-.profile-pic {
-  width: 100px;
-  height: 100px;
-  object-fit: contain;
-  margin-right: 2rem;
-}
-.header-text {
-  text-align: left;
-}
-nav a {
-  margin-right: 1rem;
-  text-decoration: none;
-  color: gold;
-}
-section {
-  max-width: 800px;
-  margin: 2rem auto;
-  padding: 1rem;
-}
-footer {
-  text-align: center;
-  padding: 1rem;
-  background-color: #e6e6e6;
-}
-
 }
 
 /* Nagłówek ze zdjęciem, imieniem i nawigacją */
